@@ -1,0 +1,5 @@
+experimental
+*.class
+*.exe
+.git
+issues.txt
