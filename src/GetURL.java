@@ -24,8 +24,7 @@ public class GetURL
 	        String aerial = "https://www.reddit.com/r/AerialPorn/";
             String frontpartofurl = "";
             String url = "";
-            String html = Jsoup.connect(earthporn).get().html();
-            System.out.println(html);
+            String html = Jsoup.connect(imageswithfilter).get().html();
             for (; i< html.length(); i++)
             {
                 String redditmatch = html.substring(i,i+redditpattern.length());

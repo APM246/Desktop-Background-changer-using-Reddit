@@ -5,8 +5,6 @@ import java.nio.file.Paths;
 
 public class Downloader
 {
-
-
     public static void main(String[] args)
     {
         String path = "..\\set up\\photo\\background-photo.jpg";

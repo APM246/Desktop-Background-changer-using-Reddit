@@ -1,7 +1,9 @@
-javac -classpath ../jars/jsoup-1.12.1.jar;. ../src/*.java
-java ../src/Downloader
-gcc -o "../src/background" "../src/background.c"
-"../src/background.exe"
-del "../src/*.class"
-del "../src/background.exe"
+cd "../src"
+javac -classpath ../jars/jsoup-1.12.1.jar;. *.java
+java -classpath ../jars/jsoup-1.12.1.jar;. Downloader
+
+gcc -o background background.c
+background.exe
+del *.class
+del background.exe
 @pause
