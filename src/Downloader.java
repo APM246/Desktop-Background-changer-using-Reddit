@@ -7,7 +7,7 @@ public class Downloader
 {
     public static void main(String[] args)
     {
-        String path = "..\\set up\\photo\\background-photo.jpg";
+        String path = "..\\set up\\background-photo.jpg";
 
         try
         {
